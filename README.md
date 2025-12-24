@@ -115,6 +115,13 @@ MS_Power_BI_PR.-Final-Project/
 
 ---
 
+## 📱 Mobile Layout Preview
+| Mobile View |
+| :---: |
+| <video src="Output/mobile.mp4" controls width="300"/>| 
+
+---
+
 ## 📈 Dashboard Pages
 
 | Page | Purpose | Key Visuals |
