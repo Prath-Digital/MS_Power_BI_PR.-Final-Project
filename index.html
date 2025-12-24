@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sales & Customer Performance — Dashboard</title>
+	<link rel="icon" type="image/png" href="Data/img/Logo_web.png">
+	<meta name="description" content="Embedded Sales & Customer Performance Power BI dashboard.">
+	<style>
+		:root{--max-width:1000px;--bg:#f7f9fb;--card:#fff;--muted:#6b7280}
+		html,body{height:100%;margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;color:#111;background:var(--bg)}
+		.container{max-width:var(--max-width);margin:28px auto;padding:20px}
+		header h1{margin:0 0 8px;font-size:1.25rem}
+		header p{margin:0 0 18px;color:var(--muted);font-size:0.95rem}
+		.card{background:var(--card);border-radius:10px;box-shadow:0 6px 18px rgba(16,24,40,0.06);padding:14px}
+		/* Responsive embed: use aspect-ratio when available, fallback to padding trick */
+		.embed-wrapper{width:100%;height:0;padding-bottom:62.25%;position:relative;border-radius:6px;overflow:hidden}
+		.embed-wrapper iframe{position:absolute;left:0;top:0;width:100%;height:100%;border:0}
+		@supports (aspect-ratio:1/1){
+			.embed-wrapper{height:auto;padding-bottom:0;aspect-ratio:16/9}
+		}
+		.meta{margin-top:12px;font-size:0.9rem;color:var(--muted)}
+		a.button{display:inline-block;margin-top:8px;padding:8px 12px;background:#0f62fe;color:#fff;border-radius:6px;text-decoration:none}
+		footer{margin-top:18px;font-size:0.8rem;color:var(--muted)}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<header>
+			<h1>Sales & Customer Performance Dashboard</h1>
+			<p>Interactive sales and operations dashboard embedded from Power BI. Resize the browser to see responsive behavior.</p>
+		</header>
+
+		<main class="card" role="main">
+			<div class="embed-wrapper" aria-hidden="false">
+				<iframe title="Sales&CustomerIntelligence" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiMGYyYjNkNGUtMzI4Mi00YjNiLTk2YTMtZTRjZGJmMGMzNDIwIiwidCI6IjBiMWRjYjE4LTI3NjYtNDFhOS04YWMxLTNiNDhmMWY3ZTUzOCJ9&pageName=11efcb4323708e83083f" frameborder="0" allowFullScreen="true"></iframe>
+			</div>
+
+			<div class="meta">
+				If the report does not load, <a class="button" href="https://app.powerbi.com/view?r=eyJrIjoiMTExZjYwZjQtZGMwMi00YjNlLWEyMzItNzBjNmU4MDAxZTg0IiwidCI6IjBiMWRjYjE4LTI3NjYtNDFhOS04YWMxLTNiNDhmMWY3ZTUzOCJ9&pageName=117620dab1afeb639f7f" target="_blank" rel="noopener">open it in Power BI</a>.
+			</div>
+
+			<noscript>
+				<p style="color:#b91c1c">JavaScript is disabled — open the report directly: <a href="https://app.powerbi.com/view?r=eyJrIjoiMTExZjYwZjQtZGMwMi00YjNlLWEyMzItNzBjNmU4MDAxZTg0IiwidCI6IjBiMWRjYjE4LTI3NjYtNDFhOS04YWMxLTNiNDhmMWY3ZTUzOCJ9&pageName=117620dab1afeb639f7f" target="_blank" rel="noopener">Power BI — Sales & Customer Performance</a></p>
+			</noscript>
+		</main>
+
+		<footer>
+			Embedded report — provided by Power BI.
+		</footer>
+	</div>
+</body>
+</html>
